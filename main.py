@@ -30,16 +30,18 @@ def display_result(data):
     three_quarters = np.percentile(data, 75)
     max = np.max(data)
 
-    print("day")
-    print("count:\t", count)
-    print("mean:\t", mean)
-    print("median:\t", median)
-    print("std:\t", std)
-    print("min:\t", min)
-    print("25%:\t", quarter)
-    print("50%:\t", half)
-    print("75%:\t", three_quarters)
-    print("max:\t", max)
+    print("day\tusage")
+    print("count:\t", count, "\t0.0")
+    print("mean:\t", mean, "\t0.0")
+    print("std:\t", std, "\t0.0")
+    print("min:\t", min, "\t0.0")
+    print("25%:\t", quarter, "\t0.0")
+    print("50%:\t", half, "\t0.0")
+    print("75%:\t", three_quarters, "\t0.0")
+    print("max:\t", max, "\t0.0")
+
+    # this is for the part b
+    print("\n\nmedian:\t", median)
 
 
 def show_image(data):
